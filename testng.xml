@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="regressionSuite">
+    <classes>
+      <class name="com.ninza.crm.campaignstest.CreateCampaignTest"/>
+      <class name="com.ninza.crm.producttest.CreateProductTest"/>
+    </classes>
+  </test> <!-- regressionSuite -->
+</suite> <!-- Suite -->
