@@ -31,7 +31,7 @@ import com.ninza.crm.objectrepository.ProductPage;
 @Listeners(com.ninza.crm.listenerUtility.ListenerImplementation.class)
 
 public class CreateProductTest extends BaseClass{
-  @Test(groups = "smoke")
+  @Test(groups = "Regression")
   public void createProductWithMandatoryFieldTest() throws IOException, Throwable {
 	int ranNum = ju.getRandomNumber();
 	String productName = ex.toReadTheDataFromExcel("Product", 1, 1)+ranNum;

@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ninza.crm.campaignstest.CreateCampaignTest">
+      <class name="Practice_for_TestNG.Demo_IRetryAnalyser">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="CreateCampaignWithExpectedDateTest"/>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
+          <include name="add"/>
         </methods>
-      </class> <!-- com.ninza.crm.campaignstest.CreateCampaignTest -->
+      </class> <!-- Practice_for_TestNG.Demo_IRetryAnalyser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

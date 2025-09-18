@@ -110,7 +110,7 @@ public class CreateCampaignTest extends BaseClass  {
 //		} else {
 //			System.out.println("Campaign is not created");
 //		}
-		Assert.assertTrue(msg.contains("Successfully Addedd"));
+		Assert.assertTrue(msg.contains("Successfully Added"));
 		hp.getCloseToastMsgBtn().click();
 		hp.logout();
 		driver.quit();

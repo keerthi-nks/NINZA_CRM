@@ -8,5 +8,6 @@ public class Demo_IRetryAnalyser {
   public void add() {
 	  System.out.println("hi");
 	  Assert.assertEquals("hfdc","hdfc");
+	  System.out.println("hi");
   }
 }
